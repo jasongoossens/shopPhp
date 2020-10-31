@@ -1,0 +1,58 @@
+:root {
+    --main-text-color: black;
+    --secondary-text-color: white;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--main-text-color);
+}
+
+.titlebar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titlebar {
+    font-size: 1.6rem;
+    padding: 8px 8px 8px 15px;
+}
+
+.user-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 8%;
+}
+.navbar {
+    display: flex;
+    background: #1a1a1a;
+    padding: 8px 8px 8px 15px;
+}
+
+.nav-item {
+    margin-right: 5%;
+}
+
+.nav-item a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.nav-item a:hover {
+    font-weight: 800;
+}
+
+.footer {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: lightgreen;
+    padding: 10px;
+    text-align: right;
+}
